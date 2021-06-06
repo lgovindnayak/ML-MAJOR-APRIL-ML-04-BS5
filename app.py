@@ -9,7 +9,7 @@ from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
 
 dataset = pd.read_csv(r"Restaurant_Reviews.tsv",delimiter = "\t")
-
+    
 data = []
 for i in range(0,1000):
     review = dataset["Review"][i]
